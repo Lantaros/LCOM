@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['east',['EAST',['../utilities_8h.html#ac33232f845969eb04b32e1006c8240a0ab5b3793b961949c817c7c0d99c05dad7',1,'utilities.h']]],
+  ['end_5fgame',['END_GAME',['../game_8h.html#a926f32f048baa470d3cabf1766ba8cdfafdcf5da1f385793bfab13089afc6db1c',1,'game.h']]],
+  ['enemies',['enemies',['../structgame__t.html#a048a1cc73cf8df27e88dd7ec39c44ee8',1,'game_t']]],
+  ['enemies_5fsize',['enemies_size',['../structgame__t.html#ac001db58ea7e548a3321683acd2a64d8',1,'game_t']]],
+  ['enemy_2ec',['enemy.c',['../enemy_8c.html',1,'']]],
+  ['enemy_2eh',['enemy.h',['../enemy_8h.html',1,'']]],
+  ['enemy_5fatk',['ENEMY_ATK',['../enemy_8h.html#a90ced775e56a7c2ba335532f7d9231bd',1,'enemy.h']]],
+  ['enemy_5fbmp',['enemy_bmp',['../structgame__t.html#ac0626b821d4067cd2409e6d2050b6f98',1,'game_t']]],
+  ['enemy_5fconstructor',['enemy_constructor',['../enemy_8c.html#ad8f1f37d149f187e7e46de6d8fc9a001',1,'enemy_constructor(unsigned int hp, unsigned int attack, unsigned int width, unsigned int length, orient_t orientation, position_t position):&#160;enemy.c'],['../enemy_8h.html#ad8f1f37d149f187e7e46de6d8fc9a001',1,'enemy_constructor(unsigned int hp, unsigned int attack, unsigned int width, unsigned int length, orient_t orientation, position_t position):&#160;enemy.c']]],
+  ['enemy_5fdelete',['enemy_delete',['../enemy_8c.html#a640cf735397da8f3465bdb0095e83dcf',1,'enemy_delete(enemy_t *enemy):&#160;enemy.c'],['../enemy_8h.html#a640cf735397da8f3465bdb0095e83dcf',1,'enemy_delete(enemy_t *enemy):&#160;enemy.c']]],
+  ['enemy_5fdmg',['enemy_dmg',['../enemy_8c.html#abfb479b9eaeef770dfc1f3af5a9de039',1,'enemy_dmg(enemy_t *enemy, unsigned int dmg):&#160;enemy.c'],['../enemy_8h.html#abfb479b9eaeef770dfc1f3af5a9de039',1,'enemy_dmg(enemy_t *enemy, unsigned int dmg):&#160;enemy.c']]],
+  ['enemy_5fdraw',['enemy_draw',['../enemy_8c.html#a289eff8b6778af86b2613d38888991b4',1,'enemy_draw(enemy_t *enemy, Bitmap **bitmaps, char *buffer):&#160;enemy.c'],['../enemy_8h.html#a289eff8b6778af86b2613d38888991b4',1,'enemy_draw(enemy_t *enemy, Bitmap **bitmaps, char *buffer):&#160;enemy.c']]],
+  ['enemy_5fdraw_5forientation',['enemy_draw_orientation',['../enemy_8h.html#a4d50becbeb1dadc6b116e106192c9980',1,'enemy.h']]],
+  ['enemy_5fgenerator',['enemy_generator',['../game_8c.html#ab16fbdf18d379831b9b0c4a523931f92',1,'enemy_generator(game_t *game):&#160;game.c'],['../game_8h.html#ab16fbdf18d379831b9b0c4a523931f92',1,'enemy_generator(game_t *game):&#160;game.c']]],
+  ['enemy_5fhp',['ENEMY_HP',['../enemy_8h.html#a3aef05a4aaa84fba9092c3d0ea44b54a',1,'enemy.h']]],
+  ['enemy_5flength',['ENEMY_LENGTH',['../enemy_8h.html#af4a5ccce2fd617609d4c25241ffed4f5',1,'enemy.h']]],
+  ['enemy_5fmove',['enemy_move',['../enemy_8c.html#a19ad9c6ca1410d003210cb80534c272a',1,'enemy_move(enemy_t *enemy, obstacle_t **obstacles, unsigned int obstacles_size):&#160;enemy.c'],['../enemy_8h.html#a19ad9c6ca1410d003210cb80534c272a',1,'enemy_move(enemy_t *enemy, obstacle_t **obstacles, unsigned int obstacles_size):&#160;enemy.c']]],
+  ['enemy_5forientation_5fincrement',['enemy_orientation_increment',['../enemy_8c.html#a228bd41078b08abe0baf5aadde5bcf4b',1,'enemy_orientation_increment(enemy_t *enemy, int direction):&#160;enemy.c'],['../enemy_8h.html#a228bd41078b08abe0baf5aadde5bcf4b',1,'enemy_orientation_increment(enemy_t *enemy, int direction):&#160;enemy.c']]],
+  ['enemy_5frand_5fconstructor',['enemy_rand_constructor',['../game_8c.html#ad91e2546bdc3f43b62844c074b3fdf21',1,'enemy_rand_constructor(position_t boat_pos, obstacle_t **obstacles, unsigned int obstacles_size, enemy_t **enemies, unsigned int *enemies_size, cannon_t **cannons):&#160;game.c'],['../game_8h.html#ad91e2546bdc3f43b62844c074b3fdf21',1,'enemy_rand_constructor(position_t boat_pos, obstacle_t **obstacles, unsigned int obstacles_size, enemy_t **enemies, unsigned int *enemies_size, cannon_t **cannons):&#160;game.c']]],
+  ['enemy_5fspeed',['ENEMY_SPEED',['../enemy_8h.html#a918e3124d6f55628dce6a99d2a615be6',1,'enemy.h']]],
+  ['enemy_5ft',['enemy_t',['../structenemy__t.html',1,'']]],
+  ['enemy_5fwidth',['ENEMY_WIDTH',['../enemy_8h.html#aa2b547d142e1f23d0b08926b72096c17',1,'enemy.h']]],
+  ['error',['ERROR',['../i8042_8h.html#a8fe83ac76edc595f6b98cd4a4127aed5',1,'i8042.h']]],
+  ['esc_5fbrk',['ESC_BRK',['../i8042_8h.html#a8a9ca78eb4286520d32389599b2e429b',1,'i8042.h']]],
+  ['esc_5fmk',['ESC_MK',['../i8042_8h.html#a1a2e212a09d4c22ce079e0b0e64b9e73',1,'i8042.h']]]
+];

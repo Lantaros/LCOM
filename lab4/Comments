@@ -1,0 +1,139 @@
+
+The mouse has 2 counters that keep track of movement:
+	X movement counter
+	Y movement counter
+	
+These counters are 9-bit complement values and each has an overflow flag
+They are sent in the form of a 3-byte data packet
+
+These omvement counters represent the mouse's offset relative to its position
+when the previous movement data packet was issued OR when the last "Non-Resend" (0xFE)
+command was seccessfully sent to the host
+
+Mouse reads input -> records the current state of its buttons
+				  -> increments/decrements the movement counters according to the amount
+				     of movement that has occurred since the last input sample
+				  -> if a counter overflows, the appropriate overflow flag is set
+				  -> further modification of the counter is disabled until the counters are reset
+				  
+RESOLUTION -> determines the amount by which the movement counters are incremented/decremented
+		      (default: 4 counts/mm)
+	Resolution value changed with "Set Resolution" (0xE8) command
+	
+SCALLING -> affects the reported value of the counters
+            (default: 1:1 scalling - no effect on the reported mouse movement)
+     Scalling value changed with the "Set Scalling" (0xE7) command
+     
+SAMPLE RATE -> maximum rate at which movement data may be reported.
+			   (default: 100 samples/sec)
+			   sample rate ranges from 10 to 200 samples/sec
+	  Sample Rate value changed with the "Set Sample Rate" (0xF3) command   
+     
+     
+     
+     
+MOVEMENT DATA PACKET
+
+_________________________________________________________________________________________________________
+	   |  Bit 7     | Bit 6      | Bit 5      | Bit 4      | Bit 3    | Bit 2      | Bit 1     | Bit 0     |
+Byte 1 | Y overflow | X overflow | Y sign Bit | X sign Bit | Always 1 | Middle Btn | Right Btn | Left Btn  |
+Byte 2 |					X movement																	   |
+Byte 3 |					Y Movement															           |
+
+Movement values range from -255 to +255. If the range is exceeded, the appropriate overflow bit is set.
+
+
+
+
+MODES OF OPERATION
+
+
+Reset - initial mode in which the mouse performs initialization and self-diagnostics
+      - sample rate = 100 samples/sec
+      - resolution = 4 counts/mm
+      - scalling = 1:1
+      - data reporting = disabled
+      
+Stream - default operating mode in which the mouse issues movement data packets when movement occurs or button state changes
+	   - data reporting - disabled (by default) -> MUST BE ENABLED WITH 0xF4 COMMAND
+	   - default operating mode
+	   
+Remote - the host must poll for movement data packets
+	   - mouse reads inputs and updates its counter flags at the current sample rate
+	   - does not automatically issue data packets when movements has occured
+	   - to do that, "Read Data" (0xEB) command is issued
+	   - when 0xEB is issued, mouse sends a single movement data packet and resets its movement counters
+	   - enabled with the 0xF0 command
+	   
+Wrap - A purely diagnostic mode where the mouse echoes every received packet back to the host
+	 - Every byte received by the mouse is sent back to the host
+	 - only the "Reset" (0xFF) and "Reset Wrap Mode" (0xEC) commands aren't echoed
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+LAB4 FILE CODE
+	 
+	 
+	 
+service lab4
+{
+        system
+                DEVIO
+                IRQCTL
+                ;
+        ipc
+                SYSTEM
+                rs
+                vm
+                pm
+                vfs
+                ;
+        io
+                40:4
+                60
+                64
+                ;               
+        irq
+                0         # TIMER 0 IRQ
+                1         # KBD IRQ 
+                12        # AUX/MOUSE IRQ
+                ;       
+        uid     0               
+                ;
+};	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 

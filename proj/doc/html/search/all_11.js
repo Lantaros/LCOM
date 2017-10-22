@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['s_5fbrk',['S_BRK',['../utilities_8h.html#ac7b11ba1ddb84b068c67f0b966e7a5b9',1,'utilities.h']]],
+  ['s_5fmk',['S_MK',['../utilities_8h.html#a6eca040bba7a6e88cb676658ae2e5cab',1,'utilities.h']]],
+  ['scan_5fcode_5fprint',['scan_code_print',['../kbd_8c.html#ab0a7fdf9a190debf9e839fcd406ad0cc',1,'scan_code_print(unsigned long *scan_code, int flag):&#160;kbd.c'],['../kbd_8h.html#ab0a7fdf9a190debf9e839fcd406ad0cc',1,'scan_code_print(unsigned long *scan_code, int flag):&#160;kbd.c']]],
+  ['scancode',['scancode',['../structgame__t.html#a28472595f3d5303df45323230e37fc99',1,'game_t']]],
+  ['score',['score',['../structgame__t.html#a5f344aacb1777ce40b4b692a54cb09e6',1,'game_t']]],
+  ['second_5fpassed_5fflag',['second_passed_flag',['../structgame__t.html#ae189dfd7773e0db9d3533d40c81564b9',1,'game_t']]],
+  ['set_5fenemies_5fchange_5forient_5fflag',['set_enemies_change_orient_flag',['../game_8c.html#aa6e22bc5532f3e5b94b5edbd46f211b9',1,'set_enemies_change_orient_flag(game_t *game, char bool):&#160;game.c'],['../game_8h.html#aa6e22bc5532f3e5b94b5edbd46f211b9',1,'set_enemies_change_orient_flag(game_t *game, char bool):&#160;game.c']]],
+  ['setinterruptcounter',['setInterruptCounter',['../group__timer.html#gadf391551b6e2cdf6b573e2337c98eaa3',1,'setInterruptCounter(int arg):&#160;timer.c'],['../group__timer.html#gadf391551b6e2cdf6b573e2337c98eaa3',1,'setInterruptCounter(int arg):&#160;timer.c']]],
+  ['side',['side',['../structcannon__t.html#afe5c3711d3cca2b9db16bddd685a0dda',1,'cannon_t']]],
+  ['singlebit',['singleBit',['../utilities_8h.html#a8d6582f1e67c5df5e7938b2167666654',1,'utilities.h']]],
+  ['size',['size',['../struct_bitmap_file_header.html#aac913b3a1f6ef005d66bf7a84428773e',1,'BitmapFileHeader::size()'],['../struct_bitmap_info_header.html#aac913b3a1f6ef005d66bf7a84428773e',1,'BitmapInfoHeader::size()'],['../group__lmlib.html#ga1e1268d164c38e4f8a4f4eb9058b0601',1,'mmap_t::size()']]],
+  ['south',['SOUTH',['../utilities_8h.html#ac33232f845969eb04b32e1006c8240a0a8ef5c0bce69283a9986011a63eea8a6b',1,'utilities.h']]],
+  ['southeast',['SOUTHEAST',['../utilities_8h.html#ac33232f845969eb04b32e1006c8240a0a16c2c7abfbd3bad3343b0dcaa858bb49',1,'utilities.h']]],
+  ['southwest',['SOUTHWEST',['../utilities_8h.html#ac33232f845969eb04b32e1006c8240a0a6aa90951b336be999de204e61dd366d4',1,'utilities.h']]],
+  ['speaker_5fctrl',['SPEAKER_CTRL',['../group__i8254.html#ga51b3a5e3d4811ca063fe25e35560ab40',1,'i8254.h']]],
+  ['speed',['speed',['../structboat__t.html#a218b4f7c6cc2681a99c23a3b089d68b1',1,'boat_t::speed()'],['../structcannonball__t.html#a481cb487704fc7f8c8ddc6613aed3785',1,'cannonball_t::speed()'],['../structenemy__t.html#a6dc6e6f3c75c509ce943163afb5dade7',1,'enemy_t::speed()']]],
+  ['speed_5facel',['SPEED_ACEL',['../boat_8c.html#aa42672cf151ecdce5b6457a1929207db',1,'boat.c']]],
+  ['speed_5fmax',['SPEED_MAX',['../boat_8c.html#ad7c86544bbb397ff14a6bb7f288f63a0',1,'boat.c']]],
+  ['speed_5fnull',['SPEED_NULL',['../boat_8c.html#a7dd17091d96ac8597a39c6eb1f7830d5',1,'boat.c']]],
+  ['state',['state',['../structboat__t.html#a1af8ebea1c0a8f2f66c3e058db11bb66',1,'boat_t::state()'],['../structgame__t.html#aaefbae4d7e63b750207466de4cb8bf19',1,'game_t::state()']]],
+  ['swap',['swap',['../utilities_8h.html#a496595a40d2155abb90a4b8d7174c0a5',1,'utilities.h']]],
+  ['switch_5fleds',['SWITCH_LEDS',['../i8042_8h.html#a4e5611c6cb88a484fe8dc6378247d951',1,'i8042.h']]]
+];
