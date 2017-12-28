@@ -277,7 +277,7 @@ int game_start(game_t* game)
 void game_menu(game_t* game)
 {
 	memcpy(game->buffer_video2, game->background_buffer, game->video_mem_size);
-	drawBitmap(game->buffer_video2, game->title_bmp, 1280, 100, ALIGN_LEFT);
+	drawBitmap(game->buffer_video2, game->title_bmp, 270, 225, ALIGN_LEFT);
 	
 	drawBitmap(game->buffer_video2, game->button_bmp, 600, 600, ALIGN_CENTER);
 	
