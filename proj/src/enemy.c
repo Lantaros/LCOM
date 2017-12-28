@@ -185,7 +185,7 @@ int enemy_move(enemy_t* enemy, obstacle_t** obstacles, unsigned int obstacles_si
 	
 	if(enemy->change_orientatiom_flag)
 	{
-		enemy->orientation = rand() % 7;
+		enemy->orientation = rand() % 8;
 		enemy->change_orientatiom_flag = FALSE;
 	}
 	
